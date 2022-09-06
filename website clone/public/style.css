@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Heebo&family=Mulish:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: ;
+}
+
+
+nav {
+    background-color: black;
+    height: 45px;
+    position: static;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    color: white;
+    text-decoration: none;
+    margin: 0px 14px;
+    padding: 14px 16px;
+    font-family: 'Fira Sans', sans-ser;
+}
+
+nav ul :hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(22, 22, 21);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+
+.iconS img {
+    height: 44px;
+    float: right;
+    margin-top: -46px;
+}
+
+.iconS :hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.bandsec {
+    background-image: url(https://wallpapercave.com/wp/wp2373698.jpg);
+    height: 785px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.heading {
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 39%;
+    font-size: 2.5vw;
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 3px 10px;
+    font-family: 'Fira Sans', sans-ser;
+}
+
+.bandsec :hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.bandsec p {
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 475px;
+    font-size: 2vw;
+    border: 2px solid white;
+    border-radius: 21px;
+    padding: 3px 10px;
+    font-family: 'Fira Sans', sans-ser;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bandsec2 {
+    width: 80%;
+    height: 243px;
+
+}
+
+.bandsec2 h2 {
+    font-family: 'Mulish', sans-serif;
+    margin: 4px 42%;
+    font-size: 2vw;
+}
+
+.italic {
+    margin: 4px 43%;
+    color: grey;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+}
+
+.dec {
+    font-family: 'Mulish', sans-serif;
+    margin: 4px 5%;
+    line-height: 1.5;
+
+
+}
+
+.pictures {
+    height: 402px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 185px;
+    width: 145px;
+    margin: 85px;
+}
+
+.box h2 {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.GuitarMan {
+    padding: 4px 26px;
+}
+
+.Mic {
+    padding: 4px 45px;
+}
+
+.Music {
+    padding: 4px 35px;
+}
+
+.box :hover {
+    background-color: rgba(129, 116, 116, 0.397);
+    color: rgb(214, 52, 23);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.section4 {
+    height: 850px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+
+.tourdates {
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+}
+
+.hedding {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    padding: 23px 361px;
+    color: white;
+}
+
+.remember {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    margin: 0px 355px;
+    color: rgb(163, 159, 159);
+
+}
+
+.sales {
+    color: rgb(104, 104, 104);
+    background-color: white;
+    margin-top: 34px;
+}
+
+.sep {
+    padding: 14px 10px;
+}
+
+.sep input {
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 11px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.oct {
+    padding: 14px 10px;
+}
+
+.oct input {
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 11px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nov {
+    padding: 14px 10px;
+}
+
+.nov input {
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: larger;
+    padding: 0px 7px;
+    margin: -5px 40px;
+}
+
+.cities {
+
+    height: 500px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.city {
+    height: 195px;
+    width: 220px;
+    margin: 0px 8px;
+
+}
+
+
+
+.city img {
+    height: 195px;
+    width: 220px;
+}
+
+.picinfo {
+    margin: -3px 0px;
+    background-color: white;
+}
+
+.picinfo p {
+    padding: 9px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.picinfo h2 {
+    padding: 7px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.picinfo input {
+    background-color: black;
+    border-radius: none;
+    padding: 7px 10px;
+    color: white;
+    border: none;
+    margin: 12px 9px;
+    font-weight: bold;
+}
+
+.btnh:hover {
+    background-color: rgb(184, 184, 184);
+    color: black;
+    cursor: pointer;
+    padding: 7px 12px;
+    transition-duration: 0.5s;
+
+}
+
+.section5 {
+    /* background-color: aqua; */
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 80%;
+    /* background-color: rgb(255, 0, 0); */
+}
+
+.contact h2 {
+    margin: 66px 435px;
+    font-size: 39px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.contact p {
+    margin: -65px 454px;
+    font-size: 21px;
+    font-style: italic;
+    color: grey;
+}
+
+.section6 {
+    height: 300px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.form {
+    width: 80%;
+
+}
+
+.form img {
+    width: 40px;
+}
+
+.information {
+    padding: 5px 9px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.information span {
+    padding: 0px 45px;
+}
+
+.information :hover {
+    cursor: pointer;
+    height: 45px;
+}
+
+.searchfeild {
+    /* background-color: darkgoldenrod; */
+    width: 50%;
+    float: right;
+    margin: -127px 0px;
+}
+
+#name {
+    padding: 8px 10px;
+    font-size: 19px;
+    margin: 11px 0px;
+    border-radius: 4px;
+}
+
+
+#email {
+    padding: 8px 10px;
+    font-size: 19px;
+    border-radius: 4px;
+}
+
+#msg {
+    padding: 8px;
+    padding-right: 12px;
+    font-size: 19px;
+    padding-right: 241px;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 9px 22px;
+    color: white;
+    border: none;
+    margin: 14px 377px;
+    font-weight: bold;
+}
+
+.searchfeild :hover {
+    background-color: rgb(205, 205, 206);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: rgb(184, 184, 184);
+    color: black;
+    padding: 7px 12px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+.map {
+    background-image: url(images/map.jpg);
+    height: 759px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer img {
+    height: 30px;
+    padding: 0px 3px;
+}
+.footer :hover {
+    height: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ownername {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+.ownername :hover {
+    color: grey;
+    cursor: pointer;
+}
